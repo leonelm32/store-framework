@@ -8,7 +8,7 @@
       "search-result-layout.mobile",
       "search-not-found-layout"
     ],
-
+  }
     "search-result-layout.desktop": {
       "props": {
         "pagination": "show-more",
@@ -25,5 +25,5 @@
         "search-fetch-more"
       ]
     }
-  }
+  
 }
