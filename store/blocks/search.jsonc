@@ -43,7 +43,7 @@
         "filter-navigator.v3"
       ]
     },
-    "flex-layout.col#top":{
+    "flex-layout.col#results":{
       "props":{
         "width":"20%"
       },
