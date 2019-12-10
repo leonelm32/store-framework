@@ -71,6 +71,7 @@
       "initialSelection":"empty",
       "displayMode":"text",
       "imageHeight":80,
+      "showVariationsLabels":true,
       "showVariationsErrorMessage":true
     }
   }
