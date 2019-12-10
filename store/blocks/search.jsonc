@@ -27,7 +27,10 @@
     "children": ["total-products.v2", "order-by.v2"]
   },
   "flex-layout.row#results": {
-    "children": ["flex-layout.col#filter", "flex-layout.col#search"]
+    "children": [
+      "flex-layout.col#filter", 
+      "flex-layout.col#search"
+    ]
   },
   "flex-layout.col#filter": {
     "props": {
@@ -38,8 +41,12 @@
   "flex-layout.col#top": {
     "props": {
       "width": "20%"
-    },
-    "children": ["search-content"]
+    }
+  },
+  "flex-layout.col#search":{
+    "children":{
+      "children": ["search-content"]
+    }
   },
   "search-content": {
     "blocks": ["gallery", "not-found"]
