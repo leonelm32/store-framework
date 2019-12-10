@@ -8,22 +8,22 @@
       "search-result-layout.mobile",
       "search-not-found-layout"
     ],
-    
-    "children": [
-      "breadcrumb.search",
-      "search-title.v2",
-      "total-products.v2",
-      "order-by.v2",
-      "search-fetch-previous",
-      "search-content",
-      "filter-navigator.v3",
-      "search-fetch-more"
-    ]
-  },
-  "search-result-layout.desktop":{
-    "props": {
-      "pagination": "show-more",
-      "preventRouteChange": true
+
+    "search-result-layout.desktop": {
+      "props": {
+        "pagination": "show-more",
+        "preventRouteChange": true
+      },
+      "children": [
+        "breadcrumb.search",
+        "search-title.v2",
+        "total-products.v2",
+        "order-by.v2",
+        "search-fetch-previous",
+        "search-content",
+        "filter-navigator.v3",
+        "search-fetch-more"
+      ]
     }
   }
 }
