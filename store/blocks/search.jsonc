@@ -44,9 +44,9 @@
     }
   },
   "flex-layout.col#search":{
-    "children":{
-      "children": ["search-content"]
-    }
+    "children":
+      ["search-content"]
+    
   },
   "search-content": {
     "blocks": ["gallery", "not-found"]
