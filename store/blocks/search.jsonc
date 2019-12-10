@@ -8,9 +8,7 @@
       "search-result-layout.mobile",
       "search-not-found-layout"
     ],
-    "props": {
-      "pagination": "show-more"
-    },
+    
     "children": [
       "breadcrumb.search",
       "search-title.v2",
@@ -21,5 +19,11 @@
       "filter-navigator.v3",
       "search-fetch-more"
     ]
+  },
+  "search-result-layout.desktop":{
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": true
+    }
   }
 }
