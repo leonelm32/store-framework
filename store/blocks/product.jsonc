@@ -33,13 +33,12 @@
       "preventVerticalStretch":true
     },
     "children": [
-      "product-price",
       "flex-layout.row#qty-sku",
-      "buy-button",
       "product-name",
       "product-identifier.product", 
+      "product-price",
+      "buy-button",
       "shipping-simulator"
-
     ]
   },
   "flex-layout.row#qty-sku": {
