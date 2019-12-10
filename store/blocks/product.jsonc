@@ -34,7 +34,7 @@
     },
     "children": [
       "product-price","buy-button","product-name","flex-layout.row#qty-sku"
-      ,"product-identifier.product"
+      ,"product-identifier.product", "shipping-simulator"
     ]
   },
   "flex-layout.row#qty-sku": {
