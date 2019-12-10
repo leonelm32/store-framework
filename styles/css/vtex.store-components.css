@@ -10,6 +10,12 @@
     padding: 24px;
 }
 
+.infoCardContainer{
+
+    background-color: #EDCFD1
+
+}
+
 .infoCardCallActionContainer :global(.vtex-button) {
     color: white;
     background-color: gray;
