@@ -32,8 +32,11 @@
     "flex-layout.row#results": {
       "children": [
         "flex-layout.col#filter",
-        "flex-layout.col#search"
-      ]
+        "flex-layout.col#search","search-content"
+      ],
+      "props":{
+        "width":"20%"
+      }
     },
     "flex-layout.col#filter":{
       "props":{
@@ -41,14 +44,6 @@
       },
       "children":[
         "filter-navigator.v3"
-      ]
-    },
-    "flex-layout.col#results":{
-      "props":{
-        "width":"20%"
-      },
-      "children":[
-        "search-content"
       ]
     },
     "search-content": {
