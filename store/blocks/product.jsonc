@@ -72,7 +72,7 @@
       "displayMode":"text",
       "imageHeight":80,
       "showVariationsLabels":true,
-      "showValueNameForImageVariations":true,
+      "showValueNameForImageVariation":true,
       "showVariationsErrorMessage":true
     }
   }
