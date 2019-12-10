@@ -70,6 +70,7 @@
     "props":{
       "initialSelection":"empty",
       "displayMode":"text",
+      "imageHeight":80,
       "showVariationsErrorMessage":true
     }
   }
